@@ -57,5 +57,5 @@ writeStyles = function(message, index, interval) {
   }
 };
 $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\"></pre>");
-time = window.innerWidth >= 800 ? 40 : 70;
+time = window.innerWidth >= 800 ? 35 : 63;
 writeStyles(styles, 0, time);
